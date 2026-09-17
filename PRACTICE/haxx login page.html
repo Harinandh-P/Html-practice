@@ -1,6 +1,101 @@
-<html>
-<style>
-    <head>< </head>
-</style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .image_block {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        .image_block img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .text_block {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            background-color: #48ed3d;
+            text-align: center;
+            padding: 20px;
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+        }
+
+        .text_block h2 {
+            margin-bottom: 10px;
+        }
+
+        .text_block h4 {
+            margin-bottom: 8px;
+        }
+
+        .text_block h5 {
+            margin-bottom: 10px;
+        }
+
+        .text_block p {
+            margin: 0;
+        }
+
+        button {
+            margin-left: 5px;
+            padding: 5px 10px;
+        }
+
+        button a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image_block">
+
+        <img src="tourism.jpg" alt="Tourism">
+
+        <div class="text_block">
+
+            <h2>Top Vacation Spots</h2>
+
+            <h4>By: Harinandh</h4>
+
+            <h5>Published: 2 days ago</h5>
+
+            <p>
+                For more detail
+                <button>
+                    <a href="https://www.viator.com/">Get Started</a>
+                </button>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
 
 </html>
