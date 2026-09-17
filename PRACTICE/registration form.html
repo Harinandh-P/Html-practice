@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT BOOKING FORM</title>
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1.form-title {
+            color: #d32f2f;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+        
+        table {
+            width: 100%;
+            border-spacing: 0 12px;
+        }
+        
+        td {
+            padding: 6px;
+            font-weight: 600;
+            color: #333333;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        select {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        input[type="submit"] {
+            background-color: #1976d2;
+            color: white;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #0d47a1;
+        }
+        /* Styled Event Planner Details Section */
+        
+        .planner-card {
+            margin-top: 30px;
+            background: #ffffff;
+            border-left: 6px solid #e67e22;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .planner-header {
+            color: #d32f2f;
+            /* Dark Red */
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .planner-name {
+            color: #1a237e;
+            /* Royal Dark Blue */
+            font-size: 22px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        
+        .planner-phone {
+            color: #2e7d32;
+            /* Vibrant Green */
+            font-size: 18px;
+            font-weight: 600;
+            margin: 5px 0;
+        }
+        
+        .planner-email {
+            color: #8e24aa;
+            /* Elegant Purple */
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        
+        .thank-you {
+            text-align: center;
+            color: #e60b0b;
+            margin-top: 30px;
+            font-size: 24px;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="form-title">REGISTER FORM</h1>
+
+        <form>
+            <table>
+                <tr>
+                    <td>NAME :</td>
+                    <td><input type="text" placeholder="ENTER YOUR NAME"></td>
+                </tr>
+                <tr>
+                    <td>NUMBER :</td>
+                    <td><input type="number" placeholder="ENTER YOUR NUMBER"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="padding-top: 15px;">
+                        <input type="submit" value="SUBMIT BOOKING">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h1 class="thank-you">THANK YOU FOR VISITING</h1>
+
+</body>
+
+</html>
